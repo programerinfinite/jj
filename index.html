@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatin Jangra Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+
+        <div class="logo">
+            <h2>Jatin Jangra</h2>
+        </div>
+
+        <a href="#home" class="sidebar-link">
+            <div>
+                <img src="https://img.icons8.com/windows/32/00008b/home.png" alt="home">
+                Home
+            </div>
+        </a>
+
+        <a href="#skills" class="sidebar-link">
+            <div>
+                <img src="https://img.icons8.com/material-outlined/24/00008b/admin-settings-male.png" alt="skills">
+                Skills
+            </div>
+        </a>
+
+        <a href="#projects" class="sidebar-link">
+            <div>
+                <img src="https://img.icons8.com/pulsar-line/48/00008b/project.png" alt="projects">
+                Projects
+            </div>
+        </a>
+
+        <a href="#education" class="sidebar-link">
+            <div>
+                <img src="https://img.icons8.com/ios/50/00008b/education.png" alt="education">
+                Education
+            </div>
+        </a>
+
+        <a href="#certificate" class="sidebar-link">
+            <div>
+                <img src="https://img.icons8.com/ios/50/00008b/certificate--v1.png" alt="certificate">
+                Certifications
+            </div>
+        </a>
+
+        <a href="#resume" class="sidebar-link">
+            <div>
+                <img src="https://img.icons8.com/ios/50/00008b/resume.png" alt="resume">
+                Resume
+            </div>
+        </a>
+
+        <a href="#contact" class="sidebar-link">
+            <div>
+                <img src="https://img.icons8.com/ios/50/00008b/resume.png" alt="contact">
+                Contact
+            </div>
+        </a>
+
+
+    </div>
+
+    <div class="container">
+        <section class="section" id="home">
+            <div class="left">
+                <h1>Hello, my name is <span>Jatin Jangra</span></h1>
+                <h2>I'm a <span id="typing"></span></h2>
+                <p>Hello! I’m Jatin Jangra, a passionate Web Designer and Web Developer. I create responsive,
+                    user-friendly, and visually appealing websites. I have hands-on experience with HTML, CSS,
+                    JavaScript, and React. I love turning creative ideas into functional web applications.</p>
+                <a href="#">More About Me</a>
+            </div>
+            <div class="right">
+                <img src="jatin.png" alt="Jatin Jangra">
+            </div>
+        </section>
+
+        <section class="section skills" id="skills">
+            <h1>My Skills</h1>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <img src="html.png" alt="HTML">
+                    <span>HTML</span>
+                </div>
+
+                <div class="skill-card">
+                    <img src="css.png" alt="CSS">
+                    <span>CSS</span>
+                </div>
+
+                <div class="skill-card">
+                    <img src="js.png" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="skill-card">
+                    <img src="php.png" alt="PHP">
+                    <span>PHP</span>
+                </div>
+
+                <div class="skill-card">
+                    <img src="wordpree.png" alt="WordPress">
+                    <span>WordPress</span>
+                </div>
+
+                <div class="skill-card">
+                    <img src="canva.jpg" alt="Canva">
+                    <span>Canva</span>
+                </div>
+
+                <div class="skill-card">
+                    <img src="figma.png" alt="Figma">
+                    <span>Figma</span>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <section class="section projects" id="projects">
+            <h1>My Projects</h1>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Personal responsive portfolio built using HTML, CSS & JavaScript.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live</a>
+                            <a href="#" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="project2.png" alt="Project 2">
+                    <div class="project-info">
+                        <h3>CSS Loader Collection</h3>
+                        <p>Creative CSS loading animations for websites and apps.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live</a>
+                            <a href="#" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Landing Page</h3>
+                        <p>Modern landing page design with smooth UI and animations.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank">Live</a>
+                            <a href="#" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="section" id="education">Education Section</section>
+        <section class="section" id="certificate">Certifications Section</section>
+        <section class="section" id="resume">Resume Section</section>
+        <section class="section" id="contact">Contact Section</section>
+    </div>
+
+    <script>
+        // Typing Effect
+        const words = ["Web Designer", "Web Developer", "Frontend Developer"];
+        let i = 0;
+        const typingSpeed = 120;
+        const pause = 1500;
+
+        function typeWord(word, callback) {
+            let index = 0;
+            function typeLetter() {
+                if (index < word.length) {
+                    document.getElementById("typing").textContent += word.charAt(index);
+                    index++;
+                    setTimeout(typeLetter, typingSpeed);
+                } else {
+                    setTimeout(callback, pause);
+                }
+            }
+            typeLetter();
+        }
+
+        function startTyping() {
+            typeWord(words[i], () => {
+                let current = document.getElementById("typing");
+                let wordLength = current.textContent.length;
+                let j = 0;
+                function deleteLetter() {
+                    if (j < wordLength) {
+                        current.textContent = current.textContent.slice(0, -1);
+                        j++;
+                        setTimeout(deleteLetter, 50);
+                    } else {
+                        i = (i + 1) % words.length;
+                        startTyping();
+                    }
+                }
+                deleteLetter();
+            });
+        }
+
+        startTyping();
+
+
+    </script>
+
+</body>
+
+</html>
