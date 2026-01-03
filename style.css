@@ -694,7 +694,7 @@ body {
 #projects {
     padding: 0;
 
-    .projects-grid {
+    /* .projects-grid {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -714,7 +714,7 @@ body {
                 display: none;
             }
         }
-    }
+    } */
 }
 
 #education {
