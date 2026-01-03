@@ -13,9 +13,8 @@
 
 <body>
     <!-- Hamburger Button for Mobile -->
-<button id="sidebarToggle" class="sidebar-toggle">
-    <i class="fa-solid fa-bars"></i>
-</button>
+    <button class="menu-toggle">☰</button>
+
 
     <div class="sidebar">
 
@@ -128,6 +127,50 @@
                 <div class="skill-card">
                     <img src="figma.png" alt="Figma">
                     <span>Figma</span>
+                </div>
+
+            </div>
+            <div class="skills-grid-mobile">
+
+                <div class="fst">
+                    <div class="skill-card">
+                        <img src="html.png" alt="HTML">
+                        <span>HTML</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="css.png" alt="CSS">
+                        <span>CSS</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="js.png" alt="JavaScript">
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="fst">
+                    <div class="skill-card">
+                        <img src="php.png" alt="PHP">
+                        <span>PHP</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="wordpree.png" alt="WordPress">
+                        <span>WordPress</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="canva.jpg" alt="Canva">
+                        <span>Canva</span>
+                    </div>
+                </div>
+
+                <div class="fst">
+                    <div class="skill-card">
+                        <img src="figma.png" alt="Figma">
+                        <span>Figma</span>
+                    </div>
                 </div>
 
             </div>
@@ -324,8 +367,7 @@
                             alt="youtube-play" />@infiniteprogramer</a>
                 </div>
 
-                <a href="https://www.instagram.com/infiniteprogramer/"
-                    class="send-btn">
+                <a href="https://www.instagram.com/infiniteprogramer/" class="send-btn">
                     <i class="fa-solid fa-paper-plane"></i> Send Message
                 </a>
 
@@ -380,13 +422,14 @@
     </script>
 
     <script>
-    const sidebar = document.querySelector('.sidebar');
-    const toggleBtn = document.getElementById('sidebarToggle');
+        const toggleBtn = document.querySelector(".menu-toggle");
+        const sidebar = document.querySelector(".sidebar");
 
-    toggleBtn.addEventListener('click', () => {
-        sidebar.classList.toggle('active');
-    });
-</script>
+        toggleBtn.addEventListener("click", () => {
+            sidebar.classList.toggle("active");
+        });
+    </script>
+
 
 
 </body>
